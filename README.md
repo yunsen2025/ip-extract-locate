@@ -1,4 +1,4 @@
-## 提取日志/代理池中的 IP，并使用 [ip-api.com](https://ip-api.com/) 批量查询 IP 属地
+## 提取日志/代理池中的 IP，并使用 [ip-api.com](https://ip-api.com/) 批量（100个/次）查询 IP 属地
 
 ### 安装依赖
 
@@ -19,4 +19,5 @@ output_file_csv = r"C:\\Users\\Yunsen\\Desktop\\py\\ips_with_location.csv"
 ### 特点
 
 - 支持在日志中批量提取
-- 支持更换查询 API
+- 支持更换查询 API  
+- 单批支持查询100个 速度极快
